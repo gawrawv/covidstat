@@ -1,0 +1,20 @@
+.container {
+  margin: 0px 5% 50px 5%;
+}
+.MuiCard-root {
+  background-color: rgba(36, 36, 36, 0.8) !important;
+  font-size: 100px;
+}
+
+.card {
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.253), -8px -8px 18px 0 rgba(255, 255, 255, 0.76);
+  margin: 10px 10px !important;
+  overflow: hidden !important;
+  border-radius: 10px;
+}
+
+@media (max-width: 959px) {
+  .card {
+    margin: 20px 10px !important;
+  }
+}

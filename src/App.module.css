@@ -1,0 +1,28 @@
+:root {
+  --main-dark-bgcolor: rgb(0, 0, 0);
+  --main-dark-card-bgcolor: rgb(36, 36, 36);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .image {
+  margin: 5%;
+  max-width: fit-content;
+}
+.image img {
+  max-width: 370px;
+}
+@media (max-width: 770px) {
+  .image img {
+    width: 100%;
+  }
+}
+.loading {
+  margin-top: 20%;
+}

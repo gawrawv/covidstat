@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 0 2%;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0 2%;
+    max-width: 95% !important;
+
+  }
+}
+
+
+.container div {
+  background-color: rgba(250, 250, 250, 0.7);
+}

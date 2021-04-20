@@ -1,0 +1,10 @@
+select {
+  border: none !important;
+  background-color: #e0e0e0 !important;
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.253), -8px -8px 14px 0 rgba(255, 255, 255, 0.76) !important;
+  width: 250px !important;
+  height: 36px !important;
+  padding-right: 0px !important;
+  padding-left: 30px !important;
+  border-radius: 32px !important;
+}
